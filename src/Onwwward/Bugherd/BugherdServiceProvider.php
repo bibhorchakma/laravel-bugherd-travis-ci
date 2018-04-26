@@ -24,6 +24,7 @@ class BugherdServiceProvider extends ServiceProvider
     public function boot()
     {
         $source = realpath(__DIR__.'/../../config/bugherd.php');
+        
 
         if ($this->app instanceof LaravelApplication && $this->app->runningInConsole()) {
             $this->publishes([

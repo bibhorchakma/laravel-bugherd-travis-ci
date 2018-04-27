@@ -3,7 +3,6 @@
 namespace Onwwward\Bugherd\Facades;
 
 use Illuminate\Support\Facades\Facade;
-**
 class Bugherd extends Facade
 {
     /**

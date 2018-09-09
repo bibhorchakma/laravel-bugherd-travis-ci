@@ -12,6 +12,7 @@ class Bugherd extends Facade
    */
   protected static function getFacadeAccessor()
   {
+  	
       return 'bugherd';
   }
 }
